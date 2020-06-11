@@ -2,3 +2,26 @@ P{
     text-align: justify;
     font-size: 20px;
 }
+html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+
+   #about{
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 25%;
+    padding-bottom: 25%; 
+   }
+   #brand {
+    margin-top: 50%;
+    padding-bottom: 25%;
+   } 
+   #contact {
+    margin-top: 80%;
+    padding-bottom: 25%;
+   } 
