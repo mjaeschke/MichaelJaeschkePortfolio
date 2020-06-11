@@ -22,6 +22,12 @@ html {
     padding-bottom: 25%;
    } 
    #contact {
-    margin-top: 80%;
-    padding-bottom: 25%;
+    margin-top: 50%;
    } 
+   #info{
+       padding-top: 20px;
+       padding-bottom: 50px;
+   }
+   #cards{
+       padding: 20px;
+   }
