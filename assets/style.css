@@ -1,9 +1,16 @@
 P{
     text-align: justify;
     font-size: 20px;
+    color: white;
 }
-html {
+h1,h4,h3{
+    color:white;
+}
+
+body,html {
     scroll-behavior: smooth;
+    height:100%;
+    margin: o;
    }
    
    a {
@@ -15,14 +22,14 @@ html {
     padding-left: 50px;
     padding-right: 20px;
     margin-top: 25%;
-    padding-bottom: 25%; 
+    padding-bottom: 10%; 
    }
    #brand {
     margin-top: 50%;
     padding-bottom: 25%;
    } 
    #contact {
-    margin-top: 50%;
+    margin-top: 40%;
    } 
    #info{
        padding-top: 20px;
@@ -30,4 +37,7 @@ html {
    }
    #cards{
        padding: 20px;
+   }
+   .bg{
+       background-image: url("/assets/images/background.jpg");
    }
