@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Michael Jaeschke portfolio</title>
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,10 +12,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+    
+    <div class="jumbotron text-center"style="margin-bottom:0">
+        <h1>Dynasty Designs</h1>
+    </div>
         <!-- create the nav bar that allows the user to be able to go to either the contact or portfolio pages-->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           <a class="navbar-brand" href="#">Michael Jaeschke</a> 
+        <nav class="navbar  navbar-expand-sm bg-dark navbar-dark">
+           <a class="navbar-brand">Michael jaeschke</a> 
            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                <ul class="navbar-nav ml-auto">
                    <li class="nav-item">
@@ -25,19 +29,36 @@
                    </li>
                </ul>
            </div>
-        </nav>
-    </div> 
-    <div class="container" id="about">
+        </nav> 
+    <div class="container-fluid">
         <div class="row">
-            <div class="col text-center">
-                <img src="http://pre10.deviantart.net/1d23/th/pre/i/2013/070/1/e/grumpy_cat_by_bwcopy-d5xod2v.jpg" class="rounded-circle"width="304" height="236">
+            <div class="col-md-4 text-center">
+                <h3 class="text-left">About Me:</h3>
+                <p>
+                    My name is Michael Jaeschke im a future web designer with some experience in computer science I have completed two associates
+                     one in computer science and the other in fine arts.Computers are a vital part of my life i have been using computers since I can remember.
+                     Being able to bring things to life that I would have never thougt be possible is something that drives me to want to be the best at designing websites.
+                </p>
             </div>
+            <div class="col-md-4">
+            <img src="images/grumpy_cat.jpg" class="rounded-circle"width="304" height="236"> 
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-left">Brand Statement:</h3>
+                <p>
+                    My name is Michael Jaeschke im a future web designer with some experience in computer science I have completed two associates
+                     one in computer science and the other in fine arts.Computers are a vital part of my life i have been using computers since I can remember.
+                     Being able to bring things to life that I would have never thougt be possible is something that drives me to want to be the best at designing websites.
+                </p>
+             </div>
+
         </div>
         <div class="row">
-            <div class="col text-center">
+            <div class="col">
                 <a id="resume" href="#">resume</a>
             </div>
         </div>
     </div>
+
 </body>
 </html>
