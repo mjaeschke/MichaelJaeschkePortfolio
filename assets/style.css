@@ -1,7 +1,7 @@
 P{
     text-align: justify;
     font-size: 20px;
-    color: white;
+    color:white;
 }
 h1,h4,h3{
     color:white;
@@ -32,8 +32,12 @@ body,html {
        padding-bottom: 80px;
    }
    #cards{
-       padding: 20px;
+       margin:20px;
    }
+   #cardsB{
+       background-color: gray;
+   }
+
 .bg{
     background-color:rgb(49, 29, 29);
     border-color: black;
